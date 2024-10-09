@@ -1,7 +1,7 @@
 /**
  * Name: HungHsu(Allen) Chen
  * Course: CS-665 Software Designs & Patterns
- * Date: 09/28/2024
+ * Date: 10/09/2024
  * File Name: Main.java
  * Description: entry point of the project
  */
