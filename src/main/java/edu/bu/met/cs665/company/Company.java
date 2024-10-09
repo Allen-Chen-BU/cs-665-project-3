@@ -19,8 +19,8 @@ public abstract class Company {
   /**
    * Generate email template based on the target customer group.
    */
-  public void generateEmail(){
-    emailType.generateEmail();
+  public String generateEmail(){
+    return emailType.generateEmail();
   }
 
   /**
