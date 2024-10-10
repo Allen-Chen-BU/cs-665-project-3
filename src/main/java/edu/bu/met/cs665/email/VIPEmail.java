@@ -6,20 +6,18 @@
  * Description: This class is responsible for the email for VIP customer
  */
 
- package edu.bu.met.cs665.email;
+package edu.bu.met.cs665.email;
 
- /**
-  * This class is responsible to create email for VIP customer.
+/**
+ * This class is responsible to create email for VIP customer.
+ */
+public class VIPEmail implements EmailInterface {
+  /**
+   * generate email for VIP customer.
   */
- public class VIPEmail implements EmailInterface {
- 
-     /**
-      * generate email for VIP customer.
-      */
-     @Override
-     public String generateEmail() {
-         return "Dear our valued customers...";
-     }
-     
- }
+  @Override
+  public String generateEmail() {
+    return "Dear our valued customers...";
+  }
+}
  

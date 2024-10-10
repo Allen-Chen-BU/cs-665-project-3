@@ -6,20 +6,18 @@
  * Description: This class is responsible for the email for returning customer
  */
 
- package edu.bu.met.cs665.email;
+package edu.bu.met.cs665.email;
 
- /**
-  * This class is responsible to create email for returning customer.
-  */
- public class ReturningEmail implements EmailInterface {
- 
-     /**
-      * generate email for returning customer.
-      */
-     @Override
-     public String generateEmail() {
-         return "Welcome back...";
-     }
-     
- }
+/**
+ * This class is responsible to create email for returning customer.
+ */
+public class ReturningEmail implements EmailInterface {
+  /**
+   * generate email for returning customer.
+   */
+  @Override
+  public String generateEmail() {
+    return "Welcome back...";
+  }
+}
  

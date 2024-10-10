@@ -12,7 +12,6 @@ package edu.bu.met.cs665.email;
  * This class is responsible for generating email.
  */
 public interface EmailInterface {
-
   /**
    * Generate email.
    * 

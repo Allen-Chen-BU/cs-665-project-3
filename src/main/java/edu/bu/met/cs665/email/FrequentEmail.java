@@ -6,20 +6,17 @@
  * Description: This class is responsible for the email for frequent customer
  */
 
- package edu.bu.met.cs665.email;
+package edu.bu.met.cs665.email;
 
- /**
-  * This class is responsible to create email for frequent customer.
-  */
- public class FrequentEmail implements EmailInterface {
- 
-     /**
-      * generate email for frequent customer.
-      */
-     @Override
-     public String generateEmail() {
-         return "Dear our loyal customers...";
-     }
-     
- }
- 
+/**
+ * This class is responsible to create email for frequent customer.
+ */
+public class FrequentEmail implements EmailInterface {
+  /**
+   * generate email for frequent customer.
+   */
+  @Override
+  public String generateEmail() {
+    return "Dear our loyal customers...";
+  }
+}

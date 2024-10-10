@@ -12,24 +12,24 @@ package edu.bu.met.cs665.email;
  * This enum class include all different types of emails for customer.
  */
 public enum EmailTypes {
-    BUSINESS(new BusinessEmail()),
-    FREQUENT(new FrequentEmail()),
-    NEW(new NewEmail()),
-    RETURNING(new ReturningEmail()),
-    VIP(new VIPEmail());
-
-    private EmailInterface email;
-
-    private EmailTypes(EmailInterface email) {
-        this.email = email;
-    }
-
-    /**
-     * getter method for email.
-     * 
-     * @return an email class that generate email
-     */
-    public EmailInterface getEmail() {
-        return email;
-    }
+  BUSINESS(new BusinessEmail()),
+  FREQUENT(new FrequentEmail()),
+  NEW(new NewEmail()),
+  RETURNING(new ReturningEmail()),
+  VIP(new VIPEmail());
+  
+  private EmailInterface email;
+  
+  private EmailTypes(EmailInterface email) {
+    this.email = email;
+  }
+  
+  /**
+   * getter method for email.
+   * 
+   * @return an email class that generate email
+   */
+  public EmailInterface getEmail() {
+    return email;
+  }
 }

@@ -12,13 +12,11 @@ package edu.bu.met.cs665.email;
  * This class is responsible to create email for business customer.
  */
 public class BusinessEmail implements EmailInterface {
-
-    /**
-     * generate email for business customer.
-     */
-    @Override
-    public String generateEmail() {
-        return "Dear our partners...";
-    }
-    
+  /**
+   * generate email for business customer.
+   */
+  @Override
+  public String generateEmail() {
+    return "Dear our partners...";
+  }
 }
